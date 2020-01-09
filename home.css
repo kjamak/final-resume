@@ -1,0 +1,183 @@
+body{
+  background-color: #062245;
+}
+
+
+.sidenav {
+  height: 100%; 
+  width: 250px; 
+  position: fixed;
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-image: url("bg.jpg"); 
+  overflow-x: hidden;
+  padding-top: 35px; 
+  margin-top: 60px; 
+  text-align: center;
+}
+
+
+.main {
+  margin-left: 250px; 
+  padding: 0px 10px;
+  margin-top: 55px;
+  color: #f1f1f1;
+  background: rgba(0, 0, 0, 0.5);
+  font-style: italic;
+
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.navbar{
+
+
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+}
+
+
+.elements{
+
+   margin-left: 145px;
+   margin-top: 45px;
+   margin-right: 145px;
+
+}
+
+#formbtn{
+  color: white;
+}
+#oldweb{
+  color: black;
+}
+
+
+.nav-link{
+
+font-style: italic;
+font-weight: bold;
+
+
+}
+
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+
+  border-radius: 50%;
+  display: inline-block;
+ ;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.regleft{
+  margin-left: 52%;
+}
+
+.webp{
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+a{
+  text-decoration: none !important;
+}

@@ -1,0 +1,76 @@
+body{
+	background-image: url("bg.png");
+   overflow-x: hidden;
+}
+
+.logo{
+  margin-top: 1%;
+  margin-left: 1%;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.col-container {
+    display: flex; 
+    width: 100%; 
+}
+
+.col {
+    display: table-cell; 
+}
+
+
+.cjedan{
+	text-align: right;
+
+ 
+
+}
+
+h1{
+font-family: 'Courgette', cursive;
+ font-size: 350%;
+ color: white;
+
+}
+
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  
+}
+
+.trio{
+	 float: left;
+  width: 36.33%;
+}
+
+p{
+font-family: 'Marvel', sans-serif;
+color: white;
+}
+
+
+.cdva{
+  margin-top: -4%;
+}
